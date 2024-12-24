@@ -23,6 +23,9 @@ importers:
       jade:
         specifier: ~1.11.0
         version: 1.11.0
+      mime:
+        specifier: ^4.0.6
+        version: 4.0.6
       morgan:
         specifier: ~1.9.1
         version: 1.9.1
@@ -252,6 +255,11 @@ packages:
 
   mime@1.4.1:
     resolution: {integrity: sha512-KI1+qOZu5DcW6wayYHSzR/tXKCDC5Om4s1z2QJjDULzLcmf3DvzS7oluY4HCTrc+9FiKmWUgeNLg7W3uIQvxtQ==}
+    hasBin: true
+
+  mime@4.0.6:
+    resolution: {integrity: sha512-4rGt7rvQHBbaSOF9POGkk1ocRP16Md1x36Xma8sz8h8/vfCUI2OtEIeCqe4Ofes853x4xDoPiFLIT47J5fI/7A==}
+    engines: {node: '>=16'}
     hasBin: true
 
   minimist@1.2.8:
@@ -645,6 +653,8 @@ snapshots:
       mime-db: 1.52.0
 
   mime@1.4.1: {}
+
+  mime@4.0.6: {}
 
   minimist@1.2.8: {}
 
